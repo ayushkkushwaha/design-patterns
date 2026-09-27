@@ -16,6 +16,6 @@ int main()
     for(auto i : manager->allTagNames())
         cout << i << endl;
 
-    cout <<TagManager::getInstance()->value("tag2");
+    cout << TagManager::getInstance()->value("tag2");
     return 0;
 }
